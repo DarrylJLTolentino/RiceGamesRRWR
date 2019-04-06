@@ -1,0 +1,7 @@
+C:\Users\darry\source\repos\RiceGames\RiceGames\obj\Debug\RiceGames.csprojAssemblyReference.cache
+C:\Users\darry\source\repos\RiceGames\RiceGames\obj\Debug\RiceGames.csproj.CoreCompileInputs.cache
+C:\Users\darry\source\repos\RiceGames\RiceGames\bin\Debug\RiceGames.exe.config
+C:\Users\darry\source\repos\RiceGames\RiceGames\bin\Debug\RiceGames.exe
+C:\Users\darry\source\repos\RiceGames\RiceGames\bin\Debug\RiceGames.pdb
+C:\Users\darry\source\repos\RiceGames\RiceGames\obj\Debug\RiceGames.exe
+C:\Users\darry\source\repos\RiceGames\RiceGames\obj\Debug\RiceGames.pdb
