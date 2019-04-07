@@ -16,7 +16,7 @@ namespace RiceGames
 
             while (lives > 0)
             {
-                Console.WriteLine("Turn: " + turns + ". Lives = " + lives + "igh Left or Right?");
+                Console.WriteLine("Turn: " + turns + ". Lives = " + lives + ". Left or Right?");
                 string playerChoice = Console.ReadLine();
                 Random r = new Random();
                 int demonChoice = r.Next(0, 2);
