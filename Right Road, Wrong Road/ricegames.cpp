@@ -4,7 +4,6 @@
 #include <algorithm>
 using namespace std;
 
-
 int main()
 {
 	int lives = 5;
@@ -17,27 +16,27 @@ int main()
 	cout << "You are chasing a demon who risks everything to eat humans. You must choose the correct side or else the demon eats some humans.\n";
 	cout << "What's your name?\n"; cin >> playerName;
 
-	while (lives > 0) {
+	while (lives > 0){
 		cout << "Turn: " << turns << ". Lives = " << lives << ". Left or Right?\n"; cin >> playerChoice;
 		int demonChoice = rand() % 2;
-		if (demonChoice == 0) {
+		if (demonChoice == 0){
 			demonSide = "Left";
 		}
-		else {
+		else{
 			demonSide = "Right";
 		}
 		transform(playerChoice.begin(), playerChoice.end(), playerChoice.begin(), ::tolower);
 		transform(demonSide.begin(), demonSide.end(), demonSide.begin(), ::tolower);
-		if (playerChoice == demonSide) {
+		if (playerChoice == demonSide){
 			cout << "Awesome! You stopped the demon... for now... Lives = " << lives << ".\n";
 			turns += 1;
 		}
-		else if (playerChoice != demonSide && playerChoice == "left" || playerChoice == "right") {
+		else if (playerChoice != demonSide && playerChoice == "left" || playerChoice == "right"){
 			lives -= 1;
 			turns += 1;
 			cout << "Whoops! The demon ate humans in another town. You lost a life. Lives = " << lives << ".\n";
 		}
-		else {
+		else{
 			cout << "Whoops! Try again!\n";
 		}
 	}
