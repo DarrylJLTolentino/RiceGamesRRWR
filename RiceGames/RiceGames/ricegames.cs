@@ -33,11 +33,15 @@ namespace RiceGames
                     Console.WriteLine("Awesome! You stopped the demon... for now... Lives = " + lives);
                     turns += 1;
                 }
-                else
+                else if (playerChoice.ToLower() != demonSide.ToLower() && playerChoice == "left" || playerChoice == "right")
                 { 
                     lives -= 1;
                     turns += 1;
                     Console.WriteLine("Whoops! The demon ate humans in another town. You lost a life. Lives = " + lives);
+                }
+                else
+                {
+                    Console.WriteLine("Whoops! Try again!");
                 }
             }
             if (turns > 19)
